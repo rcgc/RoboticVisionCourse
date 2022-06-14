@@ -1,0 +1,168 @@
+03-30-2022 13:53:51 T#2[0x00003d1c] INFO  - Beginning application initialization
+03-30-2022 13:53:53 T#2[0x00003d1c] INFO  - Vision Engine version: 7020102 starting
+03-30-2022 13:53:55 T#2[0x00003d1c] INFO  - Load starts
+03-30-2022 13:53:55 T#2[0x00003d1c] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-30-2022 13:53:55 T#2[0x00003d1c] INFO  - Load finished
+03-30-2022 13:53:55 T#2[0x00003d1c] INFO  - Application initialization succeeded
+03-30-2022 13:54:50 T#2[0x00003d1c] INFO  - Vision Engine terminating
+03-30-2022 13:54:50 T#2[0x00003d1c] INFO  - Beginning application shutdown
+03-30-2022 13:54:50 T#2[0x00003d1c] INFO  - Application shutdown succeeded
+03-30-2022 13:54:52 T#2[0x00001dc8] INFO  - Beginning application initialization
+03-30-2022 13:54:54 T#2[0x00001dc8] INFO  - Vision Engine version: 7020102 starting
+03-30-2022 13:54:55 T#2[0x00001dc8] INFO  - Load starts
+03-30-2022 13:54:55 T#2[0x00001dc8] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-30-2022 13:54:55 T#2[0x00001dc8] INFO  - Load finished
+03-30-2022 13:54:55 T#2[0x00001dc8] INFO  - Application initialization succeeded
+03-30-2022 14:15:51 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 14:15:51 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 14:16:40 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:40 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:41 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:41 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:42 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:42 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:42 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:42 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:43 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:43 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:44 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:44 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:49 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:49 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:49 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:49 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:50 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:50 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:50 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:50 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:50 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:50 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:51 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:55 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:55 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:55 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:55 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:16:56 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:16:56 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:10 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:10 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:11 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:11 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:12 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:12 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:13 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:14 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:14 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:14 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:14 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:14 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:14 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:29 T#2[0x00001dc8] INFO  - Saving starts
+03-30-2022 14:17:29 T#2[0x00001dc8] INFO  - Saving finished
+03-30-2022 14:17:30 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:30 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:31 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:31 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:31 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:31 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:17:32 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:17:32 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:18:01 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:18:01 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:18:02 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:18:02 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:36:34 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: angle is not defined - Main : Angulos
+03-30-2022 14:36:34 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:36:34 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:36:35 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: angle is not defined - Main : Angulos
+03-30-2022 14:36:35 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:36:35 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:36:35 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: angle is not defined - Main : Angulos
+03-30-2022 14:36:35 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:36:35 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:36:36 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: angle is not defined - Main : Angulos
+03-30-2022 14:36:36 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:36:36 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:36:36 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: angle is not defined - Main : Angulos
+03-30-2022 14:36:36 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:36:36 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:36:56 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: Angle_rad is not defined - Main : Angulos
+03-30-2022 14:36:56 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:36:56 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:37:00 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: Angle_rad is not defined - Main : Angulos
+03-30-2022 14:37:00 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:37:00 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:37:00 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: Angle_rad is not defined - Main : Angulos
+03-30-2022 14:37:00 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:37:00 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:37:01 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: Angle_rad is not defined - Main : Angulos
+03-30-2022 14:37:01 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:37:01 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:37:02 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: Angle_rad is not defined - Main : Angulos
+03-30-2022 14:37:02 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:37:02 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:37:05 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 19) : Error #1 in "Angulos" at line #19. ReferenceError: Angle_rad is not defined - Main : Angulos
+03-30-2022 14:37:05 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:37:05 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:39:11 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 14:39:11 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 14:44:20 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 1) : Error #155 in "Angulos" at line #1. TypeError: redeclaration of var X0 - Main : Angulos
+03-30-2022 14:44:20 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:44:20 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:44:48 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 1) : Error #155 in "Angulos" at line #1. TypeError: redeclaration of var X0 - Main : Angulos
+03-30-2022 14:44:48 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:44:48 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:44:49 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 1) : Error #155 in "Angulos" at line #1. TypeError: redeclaration of var X0 - Main : Angulos
+03-30-2022 14:44:49 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:44:49 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:44:50 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 1) : Error #155 in "Angulos" at line #1. TypeError: redeclaration of var X0 - Main : Angulos
+03-30-2022 14:44:50 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 14:44:50 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 14:57:29 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 14:57:29 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 15:20:10 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 15:20:10 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 15:20:12 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 16) : Error #1 in "Angulos" at line #16. ReferenceError: dy1 is not defined - Main : Angulos
+03-30-2022 15:20:12 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 15:20:12 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 15:20:13 T#8[0x00001148] ERROR - Monitor: Script - Angulos (line 16) : Error #1 in "Angulos" at line #16. ReferenceError: dy1 is not defined - Main : Angulos
+03-30-2022 15:20:13 T#8[0x00001148] ERROR - Monitor: Executor - Script error detected in Angulos - Main : Angulos
+03-30-2022 15:20:13 T#8[0x00001148] ERROR - Monitor: Executor - Halting on error - Main : Angulos
+03-30-2022 15:37:29 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 15:37:29 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 15:37:34 T#2[0x00001dc8] INFO  - Saving starts
+03-30-2022 15:37:34 T#2[0x00001dc8] INFO  - Saving finished
+03-30-2022 15:58:48 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 15:58:48 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 16:21:31 T#2[0x00001dc8] INFO  - Autosaving starts
+03-30-2022 16:21:31 T#2[0x00001dc8] INFO  - Autosaving finished
+03-30-2022 16:28:06 T#2[0x00001dc8] INFO  - Saving starts
+03-30-2022 16:28:06 T#2[0x00001dc8] INFO  - Saving finished
+03-30-2022 16:28:07 T#2[0x00001dc8] INFO  - Vision Engine terminating
+03-30-2022 16:28:07 T#2[0x00001dc8] INFO  - Beginning application shutdown
+03-30-2022 16:28:07 T#2[0x00001dc8] INFO  - Application shutdown succeeded
+03-31-2022 07:26:21 T#2[0x000003b8] INFO  - Beginning application initialization
+03-31-2022 07:26:23 T#2[0x000003b8] INFO  - Vision Engine version: 7020102 starting
+03-31-2022 07:26:26 T#2[0x000003b8] INFO  - Load starts
+03-31-2022 07:26:26 T#2[0x000003b8] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-31-2022 07:26:26 T#2[0x000003b8] INFO  - Load finished
+03-31-2022 07:26:26 T#2[0x000003b8] INFO  - Application initialization succeeded
+03-31-2022 07:30:43 T#2[0x000003b8] INFO  - Saving starts
+03-31-2022 07:30:43 T#2[0x000003b8] INFO  - Saving finished
+03-31-2022 07:30:55 T#2[0x000003b8] INFO  - Vision Engine terminating
+03-31-2022 07:30:55 T#2[0x000003b8] INFO  - Beginning application shutdown
+03-31-2022 07:30:55 T#2[0x000003b8] INFO  - Application shutdown succeeded
