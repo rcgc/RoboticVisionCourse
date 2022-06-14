@@ -1,0 +1,1287 @@
+<?xml version="1.0"?>
+<!--  Thursday, March 18, 2021 08:10:32  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="i"
+	RtType="1"
+	RtId="127729952"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="2"
+/>
+</Var>
+<Var
+	RtName="Prime"
+	RtType="1"
+	RtId="127731008"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="Cuenta"
+	RtType="1"
+	RtId="127731184"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="161857280"
+/>
+<FileIo
+	RtId="161868896"
+/>
+<FileIo
+	RtId="161862560"
+/>
+<FileIo
+	RtId="161855696"
+/>
+<FileIo
+	RtId="161860976"
+/>
+<FileIo
+	RtId="161868368"
+/>
+<FileIo
+	RtId="161865728"
+/>
+<FileIo
+	RtId="161857808"
+/>
+<FileIo
+	RtId="161865200"
+/>
+<FileIo
+	RtId="161863616"
+/>
+</FileIoMgr>
+<SerialIoMgr>
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+</SerialIoMgr>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr=""
+	port="0"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="160974192"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="162095184"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="652"
+	WndPosBottom="538"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\Archivos de programa\ipd\Sherlock\Bin\..\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="10"
+	strFtpLogDir=""
+	strFtpLogPrefix=""
+	strFtpLogExt="JPG"
+	bFtpLogWrap="0"
+	bFtpLogOverlay="0"
+	strFtpLogServer=""
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="162439472"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="161679280"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="32.036528706550598"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 32.04"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="161680112"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\D\Temp3\VisRob_Clase\S03_Determining if number of parts is prime"
+	FileSeqPrefix="Anillos"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="5"
+	FileSeqNameFormat="1"
+	SoRtId="162095184"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="127731360"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="161944272"
+	ParentInstr="162095184"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="162095184"
+/>
+<Instruction
+	RtName="RectA"
+	RtType="5"
+	RtId="160912784"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="5"
+	HdrLocY="-5"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="162095184"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepA"
+	RtType="5"
+	RtId="87669344"
+	ParentInstr="160912784"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="160912784"
+	Tag="Primos01-RectA-prepA"
+	ImgProcId="_CIpeThresholdExtr_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="threshold"
+	RtType="2"
+	RtId="162090912"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="95"
+/>
+</id0>
+<id1
+	RtName="below value"
+	RtType="2"
+	RtId="162091520"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="above value"
+	RtType="2"
+	RtId="162092128"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id2>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="1"
+	RtName="prepB"
+	RtType="5"
+	RtId="87668064"
+	ParentInstr="160912784"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="160912784"
+	Tag="Primos01-RectA-prepB"
+	ImgProcId="_CIpeMonoErode_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="execute times"
+	RtType="2"
+	RtId="162092432"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id0>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="2"
+	RtName="prepC"
+	RtType="5"
+	RtId="87670624"
+	ParentInstr="160912784"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="160912784"
+	Tag="Primos01-RectA-prepC"
+	ImgProcId="_CIpeMonoDilate_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="execute times"
+	RtType="2"
+	RtId="162093648"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="3"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="87667744"
+	ParentInstr="160912784"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="160912784"
+	Tag="Primos01-RectA-algA"
+	ImgProcId="_CIpeConnectivityBinary_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="164135536"
+	ConnVar="127731184"
+	Watch="1"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="count: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="164136368"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="0,0"
+/>
+<Annot
+	Type="1"
+	X="338"
+	Y="219"
+	Clr="0"
+	Text="centroid[0]: (0.00, 0.00)"
+	Display="1"
+	Highlight="0"
+	So="162095184">
+<Coord
+	Size="2"
+	Value="0,0"
+/>
+</Annot>
+</id1>
+<id2
+	RtId="164137200"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="338"
+	Y="236"
+	Clr="0"
+	Text="centroid[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="162095184">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id3
+	RtId="164138032"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="area[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="164138864"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="width[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="164139696"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="height[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="164140528"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="perimeter length[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id6>
+<id7
+	RtId="164141360"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="hole count[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id7>
+<id8
+	RtId="164142192"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="2"
+	Clr="0"
+	Text="bbox tl[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="162095184">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="164143024"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="19"
+	Clr="0"
+	Text="bbox br[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="162095184">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id9>
+<id10
+	RtId="164143856"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="elongation[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="164144688"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="fiber width[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="164145520"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="fiber length[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+<id13
+	RtId="164146352"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="form factor[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id13>
+<id14
+	RtId="164153088"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse major[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id14>
+<id15
+	RtId="164147264"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse minor[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id15>
+<id16
+	RtId="164148928"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse angle[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id16>
+<id17
+	RtId="164148096"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse axes ratio[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id17>
+<id18
+	RtId="164152256"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse roundness[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id18>
+</Outputs>
+<Params>
+<id0
+	RtName="black blobs"
+	RtType="2"
+	RtId="162086048"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="8 way"
+	RtType="2"
+	RtId="160876240"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min area"
+	RtType="2"
+	RtId="160872896"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="100"
+/>
+</id2>
+<id3
+	RtName="max area"
+	RtType="2"
+	RtId="160876848"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="10000"
+/>
+</id3>
+<id4
+	RtName="min width"
+	RtType="2"
+	RtId="160871984"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="max width"
+	RtType="2"
+	RtId="160872592"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id5>
+<id6
+	RtName="min height"
+	RtType="2"
+	RtId="160874112"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="max height"
+	RtType="2"
+	RtId="160871072"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id7>
+<id8
+	RtName="max returned"
+	RtType="2"
+	RtId="160877152"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="25"
+/>
+</id8>
+<id9
+	RtName="remove blobs touching border"
+	RtType="2"
+	RtId="160876544"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="enable sorting"
+	RtType="2"
+	RtId="160872288"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id10>
+<id11
+	RtName="descending"
+	RtType="2"
+	RtId="160877456"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id11>
+<id12
+	RtName="sorting criteria"
+	RtType="2"
+	RtId="160874416"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id12>
+<id13
+	RtName="enable moment-related calculations"
+	RtType="2"
+	RtId="160871376"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id13>
+<id14
+	RtName="first blob bounding box"
+	RtType="2"
+	RtId="160873200"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id14>
+<id15
+	RtName="bounding boxes"
+	RtType="2"
+	RtId="160875024"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id15>
+<id17
+	RtName="ellipse axes"
+	RtType="2"
+	RtId="160877760"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id17>
+<id18
+	RtName="labels"
+	RtType="2"
+	RtId="160873504"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id18>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="127732064"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="scriptA"
+	RtType="5"
+	RtId="160844464"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// Determine whether the number of parts in the image is prime&#xD;&#xD;Vars.Prime=true;&#xD;&#xD;for (Vars.i=2;Vars.i&lt;Vars.Cuenta/2;Vars.i++) {&#xD;  if (Vars.Cuenta%Vars.i ==0) {&#xD;    Vars.Prime=false;&#xD;  }&#xD;}&#xD;&#xD;// Check is number of partes is one&#xD;if (Vars.Cuenta &lt;= 1) {&#xD;	Vars.Prime = false;&#xD;}">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="161946176"
+	ParentInstr="162095184"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="162095184"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="160974192"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="160974192">
+<Children>
+<Child
+	Id="162095184"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="162095184">
+<Children>
+<Child
+	Id="161944272"
+/>
+<Child
+	Id="160912784"
+/>
+<Child
+	Id="160844464"
+/>
+<Child
+	Id="161946176"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched>
+<Rdg
+	Id="164135536"
+/>
+</Watched>
+</Investigation>

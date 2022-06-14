@@ -1,0 +1,9 @@
+03-14-2022 08:25:35 T#2[0x000020dc] INFO  - Beginning application initialization
+03-14-2022 08:25:37 T#2[0x000020dc] INFO  - Vision Engine version: 7020102 starting
+03-14-2022 08:25:40 T#2[0x000020dc] INFO  - Load starts
+03-14-2022 08:25:40 T#2[0x000020dc] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-14-2022 08:25:40 T#2[0x000020dc] INFO  - Load finished
+03-14-2022 08:25:40 T#2[0x000020dc] INFO  - Application initialization succeeded
+03-14-2022 08:25:44 T#2[0x000020dc] INFO  - Vision Engine terminating
+03-14-2022 08:25:44 T#2[0x000020dc] INFO  - Beginning application shutdown
+03-14-2022 08:25:44 T#2[0x000020dc] INFO  - Application shutdown succeeded

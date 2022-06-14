@@ -1,0 +1,1782 @@
+<?xml version="1.0"?>
+<!--  Saturday, March 26, 2022 19:31:05  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="topPads"
+	RtType="1"
+	RtId="166493952"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="8"
+/>
+</Var>
+<Var
+	RtName="RPads"
+	RtType="1"
+	RtId="166497296"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="6"
+/>
+</Var>
+<Var
+	RtName="LPads"
+	RtType="1"
+	RtId="166497472"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</Var>
+<Var
+	RtName="BPads"
+	RtType="1"
+	RtId="166498704"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="8"
+/>
+</Var>
+<Var
+	RtName="Total"
+	RtType="1"
+	RtId="166500288"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="27"
+/>
+</Var>
+<Var
+	RtName="TotalJAVA"
+	RtType="1"
+	RtId="166504864"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="27"
+/>
+</Var>
+<Var
+	RtName="TotalString"
+	RtType="1"
+	RtId="166508208"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Total de paths = 27"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="176139856"
+/>
+<FileIo
+	RtId="176140912"
+/>
+<FileIo
+	RtId="176148832"
+/>
+<FileIo
+	RtId="176142496"
+/>
+<FileIo
+	RtId="176145136"
+/>
+<FileIo
+	RtId="176146192"
+/>
+<FileIo
+	RtId="176145664"
+/>
+<FileIo
+	RtId="176144608"
+/>
+<FileIo
+	RtId="176140384"
+/>
+<FileIo
+	RtId="176146720"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="176716400"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="177092832"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="660"
+	WndPosBottom="549"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="177169152"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="176509472"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="32.079600006341934"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 32.08"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="175974704"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\Users\RobertoCarlos\Downloads\vision_robots\Projects\S08_PCB"
+	FileSeqPrefix="imagen"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="3"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="0"
+	FileSeqNameFormat="1"
+	SoRtId="177092832"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166501696"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="176353952"
+	ParentInstr="177092832"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="177092832"
+/>
+<Instruction
+	RtName="ROI"
+	RtType="5"
+	RtId="177346304"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="1"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="5"
+	HdrLocY="-5"
+	WriteChanges="1"
+	Locked="1"
+	Selected="1"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="177092832"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepA"
+	RtType="5"
+	RtId="175975936"
+	ParentInstr="177346304"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="177346304"
+	Tag="PCB_03-ROI-prepA"
+	ImgProcId="_CIpeThresholdExtr_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="threshold"
+	RtType="2"
+	RtId="176267824"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="175"
+/>
+</id0>
+<id1
+	RtName="below value"
+	RtType="2"
+	RtId="176269344"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="above value"
+	RtType="2"
+	RtId="176269648"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id2>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166494128"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="LineR"
+	RtType="5"
+	RtId="177364416"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="16777218"
+	Interpolate="0"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="519"
+	HdrLocY="88"
+	WriteChanges="0"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="177092832"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(514,93),(515,356)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(514,93),(515,356)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algB"
+	RtType="5"
+	RtId="177467680"
+	ParentInstr="177364416"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="177364416"
+	Tag="PCB_03-LineR-algB"
+	ImgProcId="_CIpeDetectEdges_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="177365664"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(514.19201382112556,143.49963495603208),(514.33269721482156,180.4993674980754),(514.46577610075019,215.49911449730553),(514.60265724056251,251.49885426794228),(514.74334063425852,288.49858680998557),(514.88022177407083,324.49832658062235)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="530"
+	Y="92"
+	Clr="0"
+	Text="position: ((514.19, 143.50), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="177092832">
+<Coord
+	Size="12"
+	Value="514.192,143.5,514.333,180.499,514.466,215.499,514.603,251.499,514.743,288.499,514.88,324.498"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="175185104"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="127,127,127,127,127,127"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength: ((127.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id3
+	RtId="175185936"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="50.5,87.5,122.5,158.5,195.5,231.5"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="distance from starting point: ((50.50), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id2
+	RtId="175186768"
+	ConnVar="166497296"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="6"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: 6.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="175115856"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="176482816"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="176484336"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id2>
+<id3
+	RtName="min edge strength"
+	RtType="2"
+	RtId="176483120"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id3>
+<id4
+	RtName="edge type"
+	RtType="2"
+	RtId="176476736"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="scan direction"
+	RtType="2"
+	RtId="176477040"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id5>
+<id6
+	RtName="pixels to skip"
+	RtType="2"
+	RtId="176480080"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id6>
+<id7
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="176482512"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id7>
+<id8
+	RtName="edges to find"
+	RtType="2"
+	RtId="176479168"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id8>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166509616"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="TopLine"
+	RtType="5"
+	RtId="177096848"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="16777218"
+	Interpolate="0"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="145"
+	HdrLocY="55"
+	WriteChanges="0"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="177092832"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(140,60),(481,58)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(140,60),(481,58)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="177468000"
+	ParentInstr="177096848"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="177096848"
+	Tag="PCB_03-TopLine-algA"
+	ImgProcId="_CIpeDetectEdges_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="177469152"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="8"
+	Value="(157.49969901276182,59.897362469133363),(194.49906263974401,59.68035740387247),(266.49782429224985,59.258077276878296),(302.49720511850273,59.046937213381213),(337.49660314402644,58.841662151647938),(375.49594957173787,58.618792084623237),(411.49533039799081,58.407652021126154),(447.4947112242437,58.19651195762907)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="173"
+	Y="43"
+	Clr="0"
+	Text="position: ((157.50, 59.90), ...) [8]"
+	Display="1"
+	Highlight="0"
+	So="177092832">
+<Coord
+	Size="16"
+	Value="157.5,59.8974,194.499,59.6804,266.498,59.2581,302.497,59.0469,337.497,58.8417,375.496,58.6188,411.495,58.4077,447.495,58.1965"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="177469984"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="8"
+	Value="127,127,127,127,127,127,127,127"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength: ((127.00), ...) [8]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id3
+	RtId="176340272"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="8"
+	Value="17.5,54.5,126.5,162.5,197.5,235.5,271.5,307.5"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="distance from starting point: ((17.50), ...) [8]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id2
+	RtId="176341104"
+	ConnVar="166493952"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="8"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: 8.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="176271472"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="175116768"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="175114640"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id2>
+<id3
+	RtName="min edge strength"
+	RtType="2"
+	RtId="175117072"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id3>
+<id4
+	RtName="edge type"
+	RtType="2"
+	RtId="175113728"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="scan direction"
+	RtType="2"
+	RtId="175114944"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id5>
+<id6
+	RtName="pixels to skip"
+	RtType="2"
+	RtId="175114032"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id6>
+<id7
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="175115248"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id7>
+<id8
+	RtName="edges to find"
+	RtType="2"
+	RtId="175115552"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id8>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166494304"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="LineB"
+	RtType="5"
+	RtId="177215104"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="16777218"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="158"
+	HdrLocY="386"
+	WriteChanges="0"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="177092832"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(153,391),(465,388)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(153,391),(465,388)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algC"
+	RtType="5"
+	RtId="177467040"
+	ParentInstr="177215104"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="177215104"
+	Tag="PCB_03-LineB-algC"
+	ImgProcId="_CIpeDetectEdges_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="177216352"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="8"
+	Value="(159.49969954006502,390.93750288903783),(195.49803545427125,390.59136504370895),(231.4963713684775,390.24522719838001),(304.49299697228457,389.54333656757416),(340.49133288649085,389.19719872224528),(377.48962257609173,388.84144593676837),(412.48800471490335,388.50492303158745),(448.48634062910958,388.15878518625857)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="174"
+	Y="374"
+	Clr="0"
+	Text="position: ((159.50, 390.94), ...) [8]"
+	Display="1"
+	Highlight="0"
+	So="177092832">
+<Coord
+	Size="16"
+	Value="159.5,390.938,195.498,390.591,231.496,390.245,304.493,389.543,340.491,389.197,377.49,388.841,412.488,388.505,448.486,388.159"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="177217184"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="8"
+	Value="127,127,127,127,127,127,127,127"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength: ((127.00), ...) [8]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id3
+	RtId="177218016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="8"
+	Value="6.5,42.5,78.5,151.5,187.5,224.5,259.5,295.5"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="distance from starting point: ((6.50), ...) [8]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id2
+	RtId="177218848"
+	ConnVar="166498704"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="8"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: 8.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="176480384"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="176482208"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="176481904"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id2>
+<id3
+	RtName="min edge strength"
+	RtType="2"
+	RtId="176483424"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id3>
+<id4
+	RtName="edge type"
+	RtType="2"
+	RtId="176483728"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="scan direction"
+	RtType="2"
+	RtId="176484032"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id5>
+<id6
+	RtName="pixels to skip"
+	RtType="2"
+	RtId="176478256"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id6>
+<id7
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="176479472"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id7>
+<id8
+	RtName="edges to find"
+	RtType="2"
+	RtId="176478560"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id8>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166508032"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="LineL"
+	RtType="5"
+	RtId="177219680"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="16777218"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="117"
+	HdrLocY="98"
+	WriteChanges="0"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="177092832"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(112,103),(111,349)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(112,103),(111,349)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algD"
+	RtType="5"
+	RtId="177468640"
+	ParentInstr="177219680"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="177219680"
+	Tag="PCB_03-LineL-algD"
+	ImgProcId="_CIpeDetectEdges_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="177220928"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="5"
+	Value="(111.97357745408186,109.49994629586024),(111.82723719976606,145.4996488575477),(111.53455669113445,217.49905398092261),(111.38415142975433,254.49874828043474),(111.24122661951834,289.658251598486)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="127"
+	Y="93"
+	Clr="0"
+	Text="position: ((111.97, 109.50), ...) [5]"
+	Display="1"
+	Highlight="0"
+	So="177092832">
+<Coord
+	Size="10"
+	Value="111.974,109.5,111.827,145.5,111.535,217.499,111.384,254.499,111.241,289.658"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="177228496"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="5"
+	Value="127,127,127,127,112"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength: ((127.00), ...) [5]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id3
+	RtId="177227664"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="5"
+	Value="6.5,42.5,114.5,151.5,186.65979381443299"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="distance from starting point: ((6.50), ...) [5]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id2
+	RtId="177225168"
+	ConnVar="166497472"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="5"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: 5.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="176481600"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="176479776"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="176480688"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id2>
+<id3
+	RtName="min edge strength"
+	RtType="2"
+	RtId="176477344"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id3>
+<id4
+	RtName="edge type"
+	RtType="2"
+	RtId="176477648"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="scan direction"
+	RtType="2"
+	RtId="176477952"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id5>
+<id6
+	RtName="pixels to skip"
+	RtType="2"
+	RtId="176478864"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id6>
+<id7
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="176480992"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id7>
+<id8
+	RtName="edges to find"
+	RtType="2"
+	RtId="176481296"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id8>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166507328"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_Numeric_AddNumbers_"
+	RtName="AddA"
+	RtType="5"
+	RtId="176361024"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="PCB_03-AddA">
+<Inputs>
+<id0
+	RtId="177172992"
+	Connected="166493952">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<InfInputsId0
+	Count="3">
+<Input
+	RtId="177168192"
+	Connected="166497296">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Input>
+<Input
+	RtId="177166992"
+	Connected="166497472">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Input>
+<Input
+	RtId="177170112"
+	Connected="166498704">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Input>
+</InfInputsId0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="175187600"
+	ConnVar="166500288"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="27"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="sum: 27.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="scriptTotal"
+	RtType="5"
+	RtId="176668128"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// Obtener el total desde codigo java&#xD;&#xD;Vars.TotalJAVA = Vars.topPads + Vars.RPads + Vars.LPads + Vars.BPads;&#xD;&#xD;Vars.TotalString = &quot;Total de paths = &quot; + Vars.TotalJAVA;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="TextA"
+	RtType="5"
+	RtId="176360480"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="PCB_03-TextA">
+<Inputs>
+<id0
+	RtId="177168912"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="280,220"
+/>
+</id0>
+<id1
+	RtId="177169392"
+	Connected="166508208">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="177166512"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</id2>
+<id3
+	RtId="177169632"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="176360208"
+	ParentInstr="177092832"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="177092832"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="176716400"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="176716400">
+<Children>
+<Child
+	Id="177092832"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="177092832">
+<Children>
+<Child
+	Id="176353952"
+/>
+<Child
+	Id="177346304"
+/>
+<Child
+	Id="177364416"
+/>
+<Child
+	Id="177096848"
+/>
+<Child
+	Id="177215104"
+/>
+<Child
+	Id="177219680"
+/>
+<Child
+	Id="176361024"
+/>
+<Child
+	Id="176668128"
+/>
+<Child
+	Id="176360480"
+/>
+<Child
+	Id="176360208"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

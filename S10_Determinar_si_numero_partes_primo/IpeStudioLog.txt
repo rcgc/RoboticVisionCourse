@@ -1,0 +1,11 @@
+03-27-2022 21:03:14 T#2[0x0000507c] INFO  - Beginning application initialization
+03-27-2022 21:03:16 T#2[0x0000507c] INFO  - Vision Engine version: 7020102 starting
+03-27-2022 21:03:23 T#2[0x0000507c] INFO  - Load starts
+03-27-2022 21:03:23 T#2[0x0000507c] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-27-2022 21:03:32 T#2[0x0000507c] ERROR - Unable to load image: "C:\D\Temp3\VisRob_Clase\S03_Determining if number of parts is prime\Anillos0005.bmp" [131077u]
+03-27-2022 21:03:32 T#2[0x0000507c] ERROR - Monitor: imgA - Acquisition failed
+03-27-2022 21:03:32 T#2[0x0000507c] INFO  - Load finished
+03-27-2022 21:03:32 T#2[0x0000507c] INFO  - Application initialization succeeded
+03-27-2022 21:03:36 T#2[0x0000507c] INFO  - Vision Engine terminating
+03-27-2022 21:03:36 T#2[0x0000507c] INFO  - Beginning application shutdown
+03-27-2022 21:03:36 T#2[0x0000507c] INFO  - Application shutdown succeeded
