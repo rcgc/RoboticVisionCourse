@@ -1,0 +1,963 @@
+<?xml version="1.0"?>
+<!--  Friday, April 29, 2022 21:29:39  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Symbol"
+	RtType="1"
+	RtId="172007952"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Num3"
+/>
+</Var>
+<Var
+	RtName="Symbols"
+	RtType="1"
+	RtId="172001968"
+	ValType="515">
+<Obj
+	Type="4099">
+<Val
+	Size="3"
+	String0="Num3"
+	String1="Num2"
+	String2="Mult"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="PNum"
+	RtType="1"
+	RtId="172007424"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="3"
+	Value="(131.5,245),(510.00003051757813,244.5),(322,251)"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="Output_text"
+	RtType="1"
+	RtId="171999504"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Result : 3x2 = 6"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="183927760"
+/>
+<FileIo
+	RtId="183928816"
+/>
+<FileIo
+	RtId="183925120"
+/>
+<FileIo
+	RtId="183929344"
+/>
+<FileIo
+	RtId="183936736"
+/>
+<FileIo
+	RtId="183937264"
+/>
+<FileIo
+	RtId="183937792"
+/>
+<FileIo
+	RtId="183927232"
+/>
+<FileIo
+	RtId="183929872"
+/>
+<FileIo
+	RtId="183925648"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="183058496"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="185135136"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="660"
+	WndPosBottom="497"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="185339184"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="185207472"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="32.9442999958992"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 32.94"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="185405648"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\Users\RobertoCarlos\Downloads\vision_robots\Projects\S17_Simbolos_Aritmetica\Images"
+	FileSeqPrefix="Operation"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="1"
+	FileSeqNameFormat="1"
+	SoRtId="185135136"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="172000736"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="184136384"
+	ParentInstr="185135136"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="185135136"
+/>
+<Instruction
+	RtName="ROI"
+	RtType="5"
+	RtId="185139552"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="47"
+	HdrLocY="75"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="185135136"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(42,80),(612,415)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(42,80),(612,415)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="185419456"
+	ParentInstr="185139552"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="185139552"
+	Tag="Tarea08-ROI-algA"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="182998896"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 3.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="182999728"
+	ConnVar="172007952"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="Num3"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: Num3"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="184119776"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="131.5,245"
+/>
+<Annot
+	Type="1"
+	X="145"
+	Y="229"
+	Clr="0"
+	Text="location: (131.50, 245.00)"
+	Display="1"
+	Highlight="0"
+	So="185135136">
+<Coord
+	Size="2"
+	Value="131.5,245"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="184120608"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="100"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 100.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="183746928"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="-1.3260615056256649e-007"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: -0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="183747760"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 1.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="183748592"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="112.00000000000017,245.00000258581994"
+/>
+<Annot
+	Type="1"
+	X="126"
+	Y="246"
+	Clr="0"
+	Text="pattern left: (112.00, 245.00)"
+	Display="1"
+	Highlight="0"
+	So="185135136">
+<Coord
+	Size="2"
+	Value="112,245"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="185420928"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="150.99999999999983,244.99999741418006"
+/>
+<Annot
+	Type="1"
+	X="165"
+	Y="263"
+	Clr="0"
+	Text="pattern right: (151.00, 245.00)"
+	Display="1"
+	Highlight="0"
+	So="185135136">
+<Coord
+	Size="2"
+	Value="151,245"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="185421760"
+	ConnVar="172001968"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="3"
+	String0="Num3"
+	String1="Num2"
+	String2="Mult"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (Num3, ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="185422592"
+	ConnVar="172007424"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="3"
+	Value="(131.5,245),(510.00003051757813,244.5),(322,251)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="145"
+	Y="280"
+	Clr="0"
+	Text="location[]: ((131.50, 245.00), ...) [3]"
+	Display="1"
+	Highlight="1"
+	So="185135136">
+<Coord
+	Size="6"
+	Value="131.5,245,510,244.5,322,251"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="185423424"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="3"
+	Value="100,100,100"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: ((100.00), ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="185424256"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="3"
+	Value="-1.3260615056256649e-007,6.7841625479185698e-009,-7.2796405278350762e-008"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: ((-0.00), ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="185233088"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="3"
+	Value="1,1.0000001192092896,0.9999995231628418"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: ((1.00), ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="184048240"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="184049152"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="3"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="184043984"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="95"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="184049456"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-180"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="184049760"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="180"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="184050976"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.29999999999999999"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="182967040"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="182966128"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="182967344"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="182965824"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="182967952"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="172001440"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Operation_process"
+	RtType="5"
+	RtId="182898720"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// Getting numbers&#xD;function getSymbol(symbol){&#xD;	if(symbol == &quot;Num0&quot;) return &quot;0&quot;;&#xD;	if(symbol == &quot;Num1&quot;) return &quot;1&quot;;&#xD;	if(symbol == &quot;Num2&quot;) return &quot;2&quot;;&#xD;	if(symbol == &quot;Num3&quot;) return &quot;3&quot;;&#xD;	if(symbol == &quot;Num4&quot;) return &quot;4&quot;;&#xD;	if(symbol == &quot;Num5&quot;) return &quot;5&quot;;&#xD;	if(symbol == &quot;Num6&quot;) return &quot;6&quot;;&#xD;	if(symbol == &quot;Num7&quot;) return &quot;7&quot;;&#xD;	if(symbol == &quot;Num8&quot;) return &quot;8&quot;;&#xD;	if(symbol == &quot;Num9&quot;) return &quot;9&quot;;&#xD;	if(symbol == &quot;Add&quot;) return &quot;+&quot;;&#xD;	if(symbol == &quot;Rest&quot;) return &quot;-&quot;;&#xD;	if(symbol == &quot;Div&quot;) return &quot;/&quot;;&#xD;	if(symbol == &quot;Mult&quot;) return &quot;x&quot;;&#xD;	else return &quot;error&quot;;&#xD;}&#xD;&#xD;function doOperation(num1, op, num2){&#xD;	n1 = parseInt(num1);&#xD;	n2 = parseInt(num2);&#xD;&#xD;	if(op == &quot;+&quot;) return n1 + n2;&#xD;	else if(op == &quot;-&quot;) return n1 - n2;&#xD;	else if(op == &quot;/&quot;)	return n1 / n2;&#xD;	else if(op == &quot;x&quot;) return n1 * n2;&#xD;	else return &quot;Error&quot;;&#xD;}&#xD;&#xD;var arr_symbols = [];&#xD;var arr_positions = [];&#xD;var symbol1, symbol2, symbol3;&#xD;var string_result = &quot;&quot;;&#xD;var num_result;&#xD;var i;&#xD;&#xD;arr_symbols = Vars.Symbols;&#xD;arr_positions = Vars.PNum;&#xD;&#xD;// PNum[0] is the very first&#xD;if( Vars.PNum[0].x &lt;= Vars.PNum[1].x  &amp;&amp; &#xD; Vars.PNum[0].x &lt;= Vars.PNum[2].x ){&#xD;&#xD;	if(Vars.PNum[1].x &lt;= Vars.PNum[2].x){&#xD;		string_result = &quot;&quot;+getSymbol(Vars.Symbols[0])+getSymbol(Vars.Symbols[1])+getSymbol(Vars.Symbols[2]);&#xD;		num_result = doOperation( getSymbol(Vars.Symbols[0]), getSymbol(Vars.Symbols[1]), getSymbol(Vars.Symbols[2]) );&#xD;	}&#xD;	else{&#xD;		string_result = &quot;&quot;+getSymbol(Vars.Symbols[0])+getSymbol(Vars.Symbols[2])+getSymbol(Vars.Symbols[1]);&#xD;		num_result = doOperation( getSymbol(Vars.Symbols[0]), getSymbol(Vars.Symbols[2]), getSymbol(Vars.Symbols[1]) );&#xD;	}&#xD;} // PNum[1] is the very first&#xD;else if( Vars.PNum[1].x &lt;= Vars.PNum[0].x &amp;&amp; &#xD; Vars.PNum[1].x &lt;= Vars.PNum[2].x){&#xD;	&#xD;	if( Vars.PNum[0] &lt;= Vars.PNum[2] ){&#xD;		string_result = &quot;&quot;+getSymbol(Vars.Symbols[1])+getSymbol(Vars.Symbols[0])+getSymbol(Vars.Symbols[2]);&#xD;		num_result = doOperation( getSymbol(Vars.Symbols[1]), getSymbol(Vars.Symbols[0]), getSymbol(Vars.Symbols[2]) );&#xD;	}&#xD;	else{&#xD;		string_result = &quot;&quot;+Vars.Symbols[1]+Vars.Symbols[2]+Vars.Symbols[0];&#xD;		num_result = doOperation( getSymbol(Vars.Symbols[1]), getSymbol(Vars.Symbols[2]), getSymbol(Vars.Symbols[0]) );&#xD;	}&#xD;} &#xD;else{ // PNum[2] is the very first&#xD;	if( Vars.PNum[0].x &lt;= Vars.PNum[1].x ){&#xD;		string_result = &quot;&quot;+getSymbol(Vars.Symbols[2])+getSymbol(Vars.Symbols[0])+getSymbol(Vars.Symbols[1]);&#xD;		num_result = doOperation( getSymbol(Vars.Symbols[2]), getSymbol(Vars.Symbols[0]), getSymbol(Vars.Symbols[1]) );&#xD;	}&#xD;	else{&#xD;		string_result = &quot;&quot;+getSymbol(Vars.Symbols[2])+getSymbol(Vars.Symbols[1])+getSymbol(Vars.Symbols[0]);&#xD;		num_result = doOperation( getSymbol(Vars.Symbols[2]), getSymbol(Vars.Symbols[1]), getSymbol(Vars.Symbols[0]) );&#xD;	}&#xD;}&#xD;&#xD;// Printing result&#xD;Vars.Output_text = &quot;Result : &quot;+string_result+&quot; = &quot;+num_result;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="TextA"
+	RtType="5"
+	RtId="187103680"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="Tarea08-TextA">
+<Inputs>
+<id0
+	RtId="185335104"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="290,60"
+/>
+</id0>
+<id1
+	RtId="185338224"
+	Connected="171999504">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="185334384"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="185337024"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="187100416"
+	ParentInstr="185135136"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="185135136"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="183058496"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="183058496">
+<Children>
+<Child
+	Id="185135136"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="185135136">
+<Children>
+<Child
+	Id="184136384"
+/>
+<Child
+	Id="185139552"
+/>
+<Child
+	Id="182898720"
+/>
+<Child
+	Id="187103680"
+/>
+<Child
+	Id="187100416"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

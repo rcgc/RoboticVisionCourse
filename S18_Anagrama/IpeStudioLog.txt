@@ -1,0 +1,43 @@
+05-05-2022 07:36:47 T#2[0x000021c4] INFO  - Beginning application initialization
+05-05-2022 07:36:49 T#2[0x000021c4] INFO  - Vision Engine version: 7020102 starting
+05-05-2022 07:36:51 T#2[0x000021c4] INFO  - Load starts
+05-05-2022 07:36:51 T#2[0x000021c4] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+05-05-2022 07:36:51 T#2[0x000021c4] INFO  - Load finished
+05-05-2022 07:36:51 T#2[0x000021c4] INFO  - Application initialization succeeded
+05-05-2022 07:41:10 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:41:10 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:41:11 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:41:11 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:41:11 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:41:11 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:41:13 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:41:13 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:42:45 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:42:45 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:42:56 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:42:56 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:45:13 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:45:13 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 07:47:07 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 07:47:07 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:06:27 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:06:27 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:16 T#2[0x000021c4] INFO  - Autosaving starts
+05-05-2022 08:27:16 T#2[0x000021c4] INFO  - Autosaving finished
+05-05-2022 08:27:39 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:39 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:39 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:39 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:40 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:40 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:42 T#2[0x000021c4] INFO  - Saving starts
+05-05-2022 08:27:43 T#2[0x000021c4] INFO  - Saving finished
+05-05-2022 08:27:44 T#2[0x000021c4] INFO  - Vision Engine terminating
+05-05-2022 08:27:44 T#2[0x000021c4] INFO  - Beginning application shutdown
+05-05-2022 08:27:44 T#2[0x000021c4] INFO  - Application shutdown succeeded

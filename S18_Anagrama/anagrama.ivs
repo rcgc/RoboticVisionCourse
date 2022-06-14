@@ -1,0 +1,1016 @@
+<?xml version="1.0"?>
+<!--  Thursday, May 05, 2022 10:39:42  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Models"
+	RtType="1"
+	RtId="139299504"
+	ValType="515">
+<Obj
+	Type="4099">
+<Val
+	Size="4"
+	String0="ModelA"
+	String1="ModelS"
+	String2="ModelT"
+	String3="ModelE"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="Positions"
+	RtType="1"
+	RtId="139301616"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="4"
+	Value="(226.50001525878906,252),(604.26513671875,251.00663757324219),(414.20278930664062,247.49562072753906),(37.5,254)"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="Result_str"
+	RtType="1"
+	RtId="139300208"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Read : eats"
+/>
+</Var>
+<Var
+	RtName="IsAnagram_str"
+	RtType="1"
+	RtId="139306720"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Is an Anagram? : YES"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="176584016"
+/>
+<FileIo
+	RtId="176583488"
+/>
+<FileIo
+	RtId="176592464"
+/>
+<FileIo
+	RtId="176594576"
+/>
+<FileIo
+	RtId="176585600"
+/>
+<FileIo
+	RtId="176587712"
+/>
+<FileIo
+	RtId="176588768"
+/>
+<FileIo
+	RtId="176589296"
+/>
+<FileIo
+	RtId="176593520"
+/>
+<FileIo
+	RtId="176595632"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="173987664"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="177535248"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="660"
+	WndPosBottom="549"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="177614768"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="176959408"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="31.796000003814697"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 31.80"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="176424464"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\Users\RobertoCarlos\Downloads\vision_robots\Projects\S18_Anagrama\Images"
+	FileSeqPrefix="Anagrams"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="1"
+	FileSeqNameFormat="1"
+	SoRtId="177535248"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="139299152"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="176805856"
+	ParentInstr="177535248"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="177535248"
+/>
+<Instruction
+	RtName="ROI"
+	RtType="5"
+	RtId="177540128"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="0"
+	RoiLocked="1"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="5"
+	HdrLocY="-5"
+	WriteChanges="1"
+	Locked="1"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="177535248"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="176789184"
+	ParentInstr="177540128"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="177540128"
+	Tag="anagrama-ROI-algA"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="176789504"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="4"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 4.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="176790336"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="ModelA"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: ModelA"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="175608912"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="226.50001525878906,252"
+/>
+<Annot
+	Type="1"
+	X="54"
+	Y="238"
+	Clr="0"
+	Text="location: (226.50, 252.00)"
+	Display="1"
+	Highlight="0"
+	So="177535248">
+<Coord
+	Size="2"
+	Value="226.5,252"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="175609744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="99.999992370605469"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 100.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="175610576"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="2.1505464042866546e-007"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="175611408"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1.0000002384185791"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 1.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="177790976"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="206.00001525878955,251.99999559137987"
+/>
+<Annot
+	Type="1"
+	X="34"
+	Y="255"
+	Clr="0"
+	Text="pattern left: (206.00, 252.00)"
+	Display="1"
+	Highlight="0"
+	So="177535248">
+<Coord
+	Size="2"
+	Value="206,252"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="177791808"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="247.00001525878858,252.00000440862013"
+/>
+<Annot
+	Type="1"
+	X="75"
+	Y="272"
+	Clr="0"
+	Text="pattern right: (247.00, 252.00)"
+	Display="1"
+	Highlight="0"
+	So="177535248">
+<Coord
+	Size="2"
+	Value="247,252"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="177792640"
+	ConnVar="139299504"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="4"
+	String0="ModelA"
+	String1="ModelS"
+	String2="ModelT"
+	String3="ModelE"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (ModelA, ...) [4]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="177793472"
+	ConnVar="139301616"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="4"
+	Value="(226.50001525878906,252),(604.26513671875,251.00663757324219),(414.20278930664062,247.49562072753906),(37.5,254)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="54"
+	Y="289"
+	Clr="0"
+	Text="location[]: ((226.50, 252.00), ...) [4]"
+	Display="1"
+	Highlight="1"
+	So="177535248">
+<Coord
+	Size="8"
+	Value="226.5,252,604.265,251.007,414.203,247.496,37.5,254"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="177805184"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="4"
+	Value="99.999992370605469,99.871490478515625,99.772392272949219,100"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: ((100.00), ...) [4]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="177806016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="4"
+	Value="2.1505464042866546e-007,-0.0027200728945890964,-0.00021520349056537906,7.4004638145781971e-008"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: ((0.00), ...) [4]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="177806848"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="4"
+	Value="1.0000002384185791,1.0000003576278687,1.000227689743042,0.99999988079071045"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: ((1.00), ...) [4]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="176714000"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="176717952"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="176715216"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="80"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="176715520"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-180"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="176716432"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="180"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="176717040"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.25"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="175566304"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="4"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="175564176"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="175566608"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="175566000"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="175562960"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="139306896"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Anagram"
+	RtType="5"
+	RtId="175534288"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// Checks if there are repeated letters&#xD;function repeated_letters(aCounter, eCounter, sCounter, tCounter){&#xD;	if( aCounter == 2 || eCounter == 2 || sCounter == 2 || tCounter == 2 ){&#xD;		return 0;&#xD;	} &#xD;	return 1;&#xD;}&#xD;&#xD;// Reads model name and return corresponding letter&#xD;function convert_letter( modelName ){&#xD;	if( modelName == &quot;ModelA&quot; ) return &quot;a&quot;;&#xD;	else if( modelName == &quot;ModelE&quot; ) return &quot;e&quot;;&#xD;	else if( modelName == &quot;ModelS&quot; ) return &quot;s&quot;;&#xD;	else if( modelName == &quot;ModelT&quot; ) return &quot;t&quot;;&#xD;}&#xD;&#xD;// Checks if contains a valid word or not&#xD;function check_word( readStr ){&#xD;	if( readStr[0] == &quot;e&quot; ){&#xD;		if( readStr[1] == &quot;a&quot; ){&#xD;			if( readStr[2] == &quot;s&quot; &amp;&amp; readStr[3] == &quot;t&quot; ) return 1; // checks east&#xD;			else if ( readStr[2] == &quot;t&quot; &amp;&amp; readStr[3] == &quot;s&quot; ) return 1; // checks eats&#xD;		}&#xD;	}&#xD;	else if( readStr[0] == &quot;s&quot; ){&#xD;		if( readStr[1] == &quot;e&quot; &amp;&amp; readStr[2] == &quot;a&quot; &amp;&amp; readStr[3] == &quot;t&quot;){ // checks seat&#xD;			return 1;&#xD;		}&#xD;	} &#xD;	else if( readStr[0] == &quot;t&quot; ){&#xD;		if( readStr[1] == &quot;e&quot; &amp;&amp; readStr[2] == &quot;a&quot; &amp;&amp; readStr[3] == &quot;s&quot; ){ // checks teas&#xD;			return 1;&#xD;		}&#xD;	}&#xD;	else return 0;&#xD;}&#xD;&#xD;// Comparison function that allows sorting&#xD;function compare_letters_posX( letter1, letter2 )&#xD;  {&#xD;  if ( letter1.positionX &lt; letter2.positionX ){&#xD;    return -1;&#xD;  }&#xD;  if ( letter1.positionX &gt; letter2.positionX ){&#xD;    return 1;&#xD;  }&#xD;  return 0;&#xD;}&#xD;&#xD;// Stores how many letters do I have&#xD;var eCounter=0, aCounter=0, sCounter=0, tCounter=0;&#xD;&#xD;// for variable&#xD;var i;&#xD;&#xD;// string that contains read characters, initialized as empty&#xD;var readStr=&quot;&quot;;&#xD;&#xD;// IsAnagram variable, contains final result&#xD;var isAnagram;&#xD;&#xD;// Array of read letters&#xD;var letters = [];&#xD;&#xD;// Counts how many letters do I have&#xD;for( i=0; i&lt;4; i++ ){&#xD;	if( Vars.Models[i] == &quot;ModelA&quot; ) aCounter++;&#xD;	else if( Vars.Models[i] == &quot;ModelE&quot; ) eCounter++;&#xD;	else if( Vars.Models[i] == &quot;ModelS&quot; ) sCounter++;&#xD;	else if( Vars.Models[i] == &quot;ModelT&quot; ) tCounter++;&#xD;}&#xD;&#xD;// Filling array of letters&#xD;for( i=0; i&lt;4; i++ ){&#xD;	var letter = {&#xD;		&quot;index&quot;: i,&#xD;		&quot;letter&quot;: convert_letter(Vars.Models[i]),&#xD;		&quot;positionX&quot;: Vars.Positions[i].x&#xD;	};&#xD;	letters.push(letter);&#xD;}&#xD;&#xD;// Sorting array of letters&#xD;letters.sort(compare_letters_posX);&#xD;&#xD;// Passing read letters into readStr&#xD;for( i=0; i&lt;4; i++ ){&#xD;	readStr = readStr + &quot;&quot; + letters[i].letter;&#xD;}&#xD;&#xD;// Checking if is anagram and if is a valid word&#xD;if( repeated_letters(aCounter, eCounter, sCounter, tCounter) == 1 &amp;&amp;&#xD;	check_word( readStr ) ){&#xD;	isAnagram = &quot;YES&quot;;&#xD;} else{&#xD;	isAnagram = &quot;NO&quot;;&#xD;}&#xD;&#xD;// Displays final analysis&#xD;Vars.Result_str = &quot;Read : &quot; + readStr;&#xD;Vars.IsAnagram_str = &quot;Is an Anagram? : &quot; + isAnagram;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Read"
+	RtType="5"
+	RtId="176807760"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="anagrama-Read">
+<Inputs>
+<id0
+	RtId="177608768"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="300,20"
+/>
+</id0>
+<id1
+	RtId="177609728"
+	Connected="139300208">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="177614048"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="177608528"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="IsAnagram"
+	RtType="5"
+	RtId="176808576"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="anagrama-IsAnagram">
+<Inputs>
+<id0
+	RtId="177613088"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="270,50"
+/>
+</id0>
+<id1
+	RtId="177609008"
+	Connected="139306720">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="177610208"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="177610448"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="176803408"
+	ParentInstr="177535248"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="177535248"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="173987664"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="173987664">
+<Children>
+<Child
+	Id="177535248"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="177535248">
+<Children>
+<Child
+	Id="176805856"
+/>
+<Child
+	Id="177540128"
+/>
+<Child
+	Id="175534288"
+/>
+<Child
+	Id="176807760"
+/>
+<Child
+	Id="176808576"
+/>
+<Child
+	Id="176803408"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

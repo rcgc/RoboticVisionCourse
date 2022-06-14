@@ -1,0 +1,1186 @@
+<?xml version="1.0"?>
+<!--  Thursday, May 05, 2022 22:55:42  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Models"
+	RtType="1"
+	RtId="166640208"
+	ValType="515">
+<Obj
+	Type="4099">
+<Val
+	Size="4"
+	String0="ModelH"
+	String1="ModelM"
+	String2="ModelS"
+	String3=""
+/>
+</Obj>
+</Var>
+<Var
+	RtName="Positions"
+	RtType="1"
+	RtId="166631408"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="3"
+	Value="(468,168.5),(204,239.49998474121094),(783,147.5)"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="resultStr"
+	RtType="1"
+	RtId="166636864"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Galleta mas lejana : Estrella"
+/>
+</Var>
+<Var
+	RtName="distancesStr"
+	RtType="1"
+	RtId="166637040"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Luna = 273.38, Estrella = 315.70"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="174799616"
+/>
+<FileIo
+	RtId="174797504"
+/>
+<FileIo
+	RtId="174798032"
+/>
+<FileIo
+	RtId="174800144"
+/>
+<FileIo
+	RtId="174793280"
+/>
+<FileIo
+	RtId="174793808"
+/>
+<FileIo
+	RtId="174794864"
+/>
+<FileIo
+	RtId="174799088"
+/>
+<FileIo
+	RtId="174795920"
+/>
+<FileIo
+	RtId="174798560"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="177053744"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="177505136"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.5"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="660"
+	WndPosBottom="549"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="178511824"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="178518208"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="37.447300001978874"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 37.45"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="178519040"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\Users\RobertoCarlos\Downloads\vision_robots\Projects\S19_Galletas\Images"
+	FileSeqPrefix="Cookie"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="1"
+	FileSeqNameFormat="1"
+	SoRtId="177505136"
+/>
+<Image
+	Width="1280"
+	Height="960"
+	Attr="32"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166636512"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="imgB"
+	RtType="5"
+	RtId="178295968"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="2"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.5"
+	WndPosLeft="515"
+	WndPosTop="8"
+	WndPosRight="1175"
+	WndPosBottom="557"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgB-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgB-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="8"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="178510864"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="178573168"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1.1997999995946884"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 1.20"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="178574000"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	ShareBuffer="0"
+	IsType="1"
+	ImgType="1"
+	SrcBpp="8"
+	SoSrcRtId="177505136"
+	ParentSo="178295968"
+/>
+<Image
+	Width="1280"
+	Height="960"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166634576"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="177524688"
+	ParentInstr="177505136"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="177505136"
+/>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="177526048"
+	ParentInstr="177505136"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="177505136"
+/>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="177520880"
+	ParentInstr="178295968"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="178295968"
+/>
+<Instruction
+	RtName="RectA"
+	RtType="5"
+	RtId="178574832"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="1"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="5"
+	HdrLocY="-5"
+	WriteChanges="1"
+	Locked="1"
+	Selected="1"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="178295968"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(1279,959)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(1279,959)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="178519952"
+	ParentInstr="178574832"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="178574832"
+	Tag="galletas-RectA-algA"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="178576080"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 3.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="178576912"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="ModelH"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: ModelH"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="178577744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="468,168.5"
+/>
+<Annot
+	Type="1"
+	X="483"
+	Y="146"
+	Clr="0"
+	Text="location: (468.00, 168.50)"
+	Display="1"
+	Highlight="0"
+	So="178295968">
+<Coord
+	Size="2"
+	Value="468,168.5"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="178578576"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="99.999992370605469"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 100.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="178579408"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3.335782599528438e-008"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="178580240"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 1.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="178581072"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="336.5,168.49999561344589"
+/>
+<Annot
+	Type="1"
+	X="352"
+	Y="146"
+	Clr="0"
+	Text="pattern left: (336.50, 168.50)"
+	Display="1"
+	Highlight="0"
+	So="178295968">
+<Coord
+	Size="2"
+	Value="336.5,168.5"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="178581904"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="599.5,168.50000438655411"
+/>
+<Annot
+	Type="1"
+	X="615"
+	Y="146"
+	Clr="0"
+	Text="pattern right: (599.50, 168.50)"
+	Display="1"
+	Highlight="0"
+	So="178295968">
+<Coord
+	Size="2"
+	Value="599.5,168.5"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="178582736"
+	ConnVar="166640208"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="3"
+	String0="ModelH"
+	String1="ModelM"
+	String2="ModelS"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (ModelH, ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="178583568"
+	ConnVar="166631408"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="3"
+	Value="(468,168.5),(204,239.49998474121094),(783,147.5)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="483"
+	Y="163"
+	Clr="0"
+	Text="location[]: ((468.00, 168.50), ...) [3]"
+	Display="1"
+	Highlight="1"
+	So="178295968">
+<Coord
+	Size="6"
+	Value="468,168.5,204,239.5,783,147.5"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="178584400"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="3"
+	Value="99.999992370605469,99.999992370605469,100"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: ((100.00), ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="178585232"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="3"
+	Value="3.335782599528438e-008,-4.1815646551427695e-008,2.2508189540567102e-008"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: ((0.00), ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="178588640"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="3"
+	Value="1,1,1"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: ((1.00), ...) [3]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="177431872"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="177433696"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="3"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="177430048"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="95"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="177434304"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-180"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="177434912"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="180"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="177436736"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.25"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="176382128"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="4"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="176381216"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="176384560"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="176384864"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="176381520"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166636688"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="scriptA"
+	RtType="5"
+	RtId="176329136"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// Position variables&#xD;var heartX, heartY, moonX, moonY, starX, starY;&#xD;&#xD;// Distance variables respect to heart position&#xD;var moonDistance, starDistance;&#xD;&#xD;// Loop variable&#xD;var i;&#xD;&#xD;// farthest cookie shape string&#xD;var cookieResult;&#xD;&#xD;// getting cookies position&#xD;for( i=0; i&lt;4; i++ ){&#xD;	if( Vars.Models[i] == &quot;ModelH&quot; ){&#xD;		heartX = Vars.Positions[i].x;&#xD;		heartY = Vars.Positions[i].y;&#xD;	}&#xD;	else if( Vars.Models[i] == &quot;ModelM&quot; ){&#xD;		moonX = Vars.Positions[i].x;&#xD;		moonY = Vars.Positions[i].y;&#xD;	}&#xD;	else if( Vars.Models[i] == &quot;ModelS&quot; ){&#xD;		starX = Vars.Positions[i].x;&#xD;		starY = Vars.Positions[i].y;&#xD;	}&#xD;}&#xD;&#xD;// calculating cookies distances&#xD;moonDistance = Math.sqrt( Math.pow( heartX - moonX , 2 ) + Math.pow( heartY - moonY, 2 ) );&#xD;starDistance = Math.sqrt( Math.pow( heartX - starX , 2) + Math.pow( heartY - starY , 2) );&#xD;&#xD;// checking farthest cookie&#xD;if(moonDistance &gt;= starDistance){&#xD;	cookieResult = &quot;Luna&quot;;&#xD;}&#xD;else{&#xD;	cookieResult = &quot;Estrella&quot;;&#xD;}&#xD;&#xD;// displaying result&#xD;Vars.distancesStr = &quot;Luna = &quot; + moonDistance.toFixed(2) + &quot;, Estrella = &quot; + starDistance.toFixed(2);&#xD;Vars.resultStr = &quot;Galleta mas lejana : &quot; + cookieResult;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="TextA"
+	RtType="5"
+	RtId="177519520"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="galletas-TextA">
+<Inputs>
+<id0
+	RtId="178512784"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="450,40"
+/>
+</id0>
+<id1
+	RtId="178513024"
+	Connected="166636864">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="178511104"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="178514224"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="TextB"
+	RtType="5"
+	RtId="177525232"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="galletas-TextB">
+<Inputs>
+<id0
+	RtId="399899888"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="450,0"
+/>
+</id0>
+<id1
+	RtId="399911888"
+	Connected="166637040">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="399906368"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="399902288"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="177524960"
+	ParentInstr="178295968"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="178295968"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="177053744"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="177053744">
+<Children>
+<Child
+	Id="177505136"
+/>
+<Child
+	Id="178295968"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="177505136">
+<Children>
+<Child
+	Id="177524688"
+/>
+<Child
+	Id="177526048"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="178295968">
+<Children>
+<Child
+	Id="177520880"
+/>
+<Child
+	Id="178574832"
+/>
+<Child
+	Id="176329136"
+/>
+<Child
+	Id="177519520"
+/>
+<Child
+	Id="177525232"
+/>
+<Child
+	Id="177524960"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

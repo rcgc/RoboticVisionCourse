@@ -1,0 +1,23 @@
+04-29-2022 19:03:52 T#2[0x00002b54] INFO  - Beginning application initialization
+04-29-2022 19:03:53 T#2[0x00002b54] INFO  - Vision Engine version: 7020102 starting
+04-29-2022 19:03:57 T#2[0x00002b54] INFO  - Load starts
+04-29-2022 19:03:57 T#2[0x00002b54] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+04-29-2022 19:03:57 T#2[0x00002b54] INFO  - Load finished
+04-29-2022 19:03:57 T#2[0x00002b54] INFO  - Application initialization succeeded
+04-29-2022 19:09:56 T#2[0x00002b54] INFO  - Saving starts
+04-29-2022 19:09:56 T#2[0x00002b54] INFO  - Saving finished
+04-29-2022 19:19:58 T#8[0x00002744] ERROR - Monitor: Script - Operation_process (line 32) : Error #1 in "Operation_process" at line #32. ReferenceError: Result is not defined - Main : Operation_process
+04-29-2022 19:19:58 T#8[0x00002744] ERROR - Monitor: Executor - Script error detected in Operation_process - Main : Operation_process
+04-29-2022 19:19:58 T#8[0x00002744] ERROR - Monitor: Executor - Halting on error - Main : Operation_process
+04-29-2022 19:20:20 T#8[0x00002744] ERROR - Monitor: Script - Operation_process (line 33) : Error #1 in "Operation_process" at line #33. ReferenceError: Result is not defined - Main : Operation_process
+04-29-2022 19:20:20 T#8[0x00002744] ERROR - Monitor: Executor - Script error detected in Operation_process - Main : Operation_process
+04-29-2022 19:20:20 T#8[0x00002744] ERROR - Monitor: Executor - Halting on error - Main : Operation_process
+04-29-2022 19:22:05 T#2[0x00002b54] INFO  - Saving starts
+04-29-2022 19:22:05 T#2[0x00002b54] INFO  - Saving finished
+04-29-2022 19:22:05 T#2[0x00002b54] INFO  - Saving starts
+04-29-2022 19:22:05 T#2[0x00002b54] INFO  - Saving finished
+04-29-2022 19:22:06 T#2[0x00002b54] INFO  - Saving starts
+04-29-2022 19:22:06 T#2[0x00002b54] INFO  - Saving finished
+04-29-2022 19:22:07 T#2[0x00002b54] INFO  - Vision Engine terminating
+04-29-2022 19:22:07 T#2[0x00002b54] INFO  - Beginning application shutdown
+04-29-2022 19:22:07 T#2[0x00002b54] INFO  - Application shutdown succeeded
